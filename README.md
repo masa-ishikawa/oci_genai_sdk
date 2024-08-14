@@ -24,7 +24,7 @@ pipがインストールされていない場合は下記を実行します。
 curl https://bootstrap.pypa.io/pip/3.6/get-pip.py -o get-pip.py
 python get-pip.py
 ```
-なお、pip最新版は下記はこちらです（https://bootstrap.pypa.io/get-pip.py）
+なお、pip最新版は下記はこちらです（ https://bootstrap.pypa.io/get-pip.py ）
 
 ```sh
 pip install oci
