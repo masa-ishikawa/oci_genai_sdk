@@ -31,7 +31,7 @@ python get-pip.py
 pip install oci
 ```
 
-## デモ
+## 動作確認
 git clone等でchattest_demo.pyをVMにコピーし、ソースの下記部分にgenerative ai実行権限のあるcompartment_idを記述します。
 ```python
 compartment_id = "(my_compartment_id)"
