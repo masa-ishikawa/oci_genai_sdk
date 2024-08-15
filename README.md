@@ -4,18 +4,19 @@
 VMからGenerative AIのPythonサンプルコードを呼び出す手順です
 
 ## 前提条件
-* VM,VCNがあること
 * Chicagoリージョンをサブスクライブしていること
-* Pythonがインストールされていること（3.6以上）
+* VCNがあること
 
-
-
-## 1. ポリシー設定
+## ポリシー設定
 Generative AIサービスの利用ポリシーを設定します。
 下記はany-userですが、必要なユーザグループに対して権限を付与します。
 ```sh
 Allow any-user to use generative-ai-family in compartment (compartment_name)
 ```
+## VM作成
+Oracle Linux8, パブリックサブネットにて作成する。
+SSHキーは既存の公開キーがあればそちらを設定。
+
 
 ## pip, oci python sdkインストール
 pipがインストールされていない場合は下記を実行します。
