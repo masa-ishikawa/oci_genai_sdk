@@ -36,7 +36,7 @@ git clone等でchattest_demo.pyをVMにコピーし、ソースの下記部分�
 ```python
 compartment_id = "(my_compartment_id)"
 ```
-デモを実行します
+デモソースを実行します
 ```sh
 python chattest_demo.py
 ```
